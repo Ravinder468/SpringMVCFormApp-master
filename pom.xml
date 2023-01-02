@@ -13,6 +13,12 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 	
+	<scm>
+<connection>scm:svn:http://svn.apache.org/repos/asf/maven/plugins/tags/maven-war-plugin-2.2</connection>
+<developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/plugins/tags/maven-war-plugin-2.2</developerConnection>
+<url>http://svn.apache.org/viewvc/maven/plugins/tags/maven-war-plugin-2.2</url>
+</scm>
+	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -42,17 +48,7 @@
 		</dependency>
 		
 		
-		<dependency>
-<groupId>org.apache.maven.plugins</groupId>
-<artifactId>maven-war-plugin</artifactId>
-<version>3.3.2</version>
-</dependency>
-	
-	<dependency>
-<groupId>org.apache.maven.plugins</groupId>
-<artifactId>maven-dependency-plugin</artifactId>
-<version>3.3.0</version>
-</dependency>
+		
 		
 	</dependencies>
 	<build>
