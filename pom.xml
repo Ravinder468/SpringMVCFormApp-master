@@ -13,21 +13,6 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 	
-	<dependency>
-<groupId>org.apache.maven.plugins</groupId>
-<artifactId>maven-war-plugin</artifactId>
-<version>3.3.2</version>
-</dependency>
-	
-	<dependency>
-<groupId>org.apache.maven.plugins</groupId>
-<artifactId>maven-dependency-plugin</artifactId>
-<version>3.3.0</version>
-</dependency>
-
-
-	
-
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -55,6 +40,20 @@
 			<artifactId>javax.servlet.jsp-api</artifactId>
 			<version>2.3.1</version>
 		</dependency>
+		
+		
+		<dependency>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-war-plugin</artifactId>
+<version>3.3.2</version>
+</dependency>
+	
+	<dependency>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-dependency-plugin</artifactId>
+<version>3.3.0</version>
+</dependency>
+		
 	</dependencies>
 	<build>
 		<finalName>SpringFormApp</finalName>
