@@ -13,11 +13,25 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 	
-	<scm>
-<connection>scm:svn:http://svn.apache.org/repos/asf/maven/plugins/tags/maven-war-plugin-2.2</connection>
-<developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/plugins/tags/maven-war-plugin-2.2</developerConnection>
-<url>http://svn.apache.org/viewvc/maven/plugins/tags/maven-war-plugin-2.2</url>
-</scm>
+<plugin>
+
+                <artifactId>maven-compiler-plugin</artifactId>
+
+                <version>3.1</version>
+
+                <configuration>
+
+                    <source>1.8</source>
+
+                    <target>1.8</target>
+
+                    <fork>true</fork>
+
+                    <executable>C:\Program Files\Java\jdk\bin\javac</executable>
+
+                </configuration>
+
+</plugin>
 	
 	<dependencies>
 		<dependency>
