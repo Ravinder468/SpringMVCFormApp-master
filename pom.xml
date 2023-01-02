@@ -13,7 +13,7 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 	
-<plugin>
+
 
                 <artifactId>maven-compiler-plugin</artifactId>
 
@@ -31,7 +31,7 @@
 
                 </configuration>
 
-</plugin>
+
 	
 	<dependencies>
 		<dependency>
